@@ -1,2 +1,2 @@
 # Koora-Kit
-kit for soccer analytics
+A kit for soccer analytics
