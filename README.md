@@ -15,8 +15,6 @@ Koora-Kit empowers users to explore football data intuitively and insightfully. 
     * **Customizable Reports**: Generate reports using LLMs to differentiate between two players in terms of their KPIs.
 ![Screenshot from 2024-11-24 16-10-21](https://github.com/user-attachments/assets/a2e9f6fb-f9f8-4468-ad81-370f94b3dfcb)
 
-Below is a video showing the Pre-Match Analytics (Video Here)
-
 * Post-Match Analysis:
     * **Player Detection and Tracking**: Automatically identify and track player movements throughout the match using YOLOv8 and Deep-EIOU tracker.
     * **Ball Detection and Tracking**: Monitor the ball's position and movement, capturing key moments and transitions during gameplay using YOLOv8.
@@ -32,7 +30,13 @@ Below is a video showing the Pre-Match Analytics (Video Here)
 
   Using the output of these models, the following analytics were driven:
     * **Heatmap calculation**: it highlights the areas where the player was most or least effective.
-      (Video)
+
+      https://github.com/user-attachments/assets/6eb7e302-4509-44c8-b21b-ea759bc9de11
+
+     <p align="center">
+     <img src="https://github.com/user-attachments/assets/d1bf414d-e5ae-4c04-88b0-fc9ae42a0c0c" />
+      </p>
+
     * **Speed and Distance Calculation**: it calculates the average speed and distance of each player throughout the match.
 
 The whole post-processing pipeline is shown below:
